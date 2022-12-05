@@ -1,0 +1,92 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(184, 169, 169);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.formm {
+  height: 600px;
+  width: 700px;
+  background: rgb(255, 255, 255);
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+.main {
+  text-align: center;
+}
+
+.navbar {
+  height: 90px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.navbar img {
+  height: 110%;
+}
+.navbar svg {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+}
+.navbar svg :hover {
+  color: rgb(49, 48, 48);
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 1vmax;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.banner {
+  height: 500px;
+  background: #000;
+  color: white;
+  padding: 30px;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s;
+}
+.card img:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+.row {
+  margin-top: -30px;
+  background: #000;
+}
+.row div {
+  display: flex;
+  padding: 0.8rem;
+  overflow-x: auto;
+}
+
+.home {
+  margin-top: -30px;
+  padding: 30;
+}/*# sourceMappingURL=index.css.map */
